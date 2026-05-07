@@ -62,3 +62,44 @@ project/
 ├── requirements.txt
 ├── logo_hadir_alternative.png
 └── README.md
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/hadir-ai.git
+
+cd hadir-ai
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Create a `.env` file:
+
+```env
+GROQ_API_KEY=your_api_key
+```
+
+Run the project:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Future Improvements
+
+- User authentication and login system
+- Individual user accounts and secure profile management
+- Cloud database integration
+- Resume analysis
+- Real-time AI interview scoring
+- Multi-language support
+- Mobile-friendly version
